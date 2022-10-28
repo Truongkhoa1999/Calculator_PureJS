@@ -1,0 +1,117 @@
+/* general style */
+body {
+    font-family: Roboto;
+    background: #373B44;
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    background: linear-gradient(to right, #4286f4, #373B44);
+}
+
+#container {
+    max-width: 320px;
+    height: 520px;
+    background-color: #eaedef;
+    top: 20px;
+    margin: 0 auto;
+    position: relative;
+    border: 0.25em solid;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#result {
+    height: 120px;
+    border-bottom: 0;
+    border-radius: 20px;
+    background-color: #eaedef;
+    display: flex;
+    flex-direction: column;
+}
+
+#output {
+    text-align: right;
+    height: 20px;
+    margin: 24px 20px;
+    padding-top: 20px;
+    font-size: 25px;
+    color: red;
+    
+}
+
+#old-result {
+    color: yellow;
+    text-align: center;
+    min-width: 8rem;
+    width: auto;
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+    padding: 0.5rem;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10rem;
+}
+
+
+#keyboard {
+    height: 400px;
+}
+
+/* modified style */
+.system,
+.integer,
+.blank {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.integer,
+.trong {
+    background-color: #eaedef;
+}
+
+.system,
+.integer {
+    cursor: pointer;
+}
+
+.system:active,
+.integer:active {
+    font-size: 13px;
+}
+
+.system:focus,
+.integer:focus,
+.trong:focus {
+    outline: 0;
+}
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #ffa500;
+}
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #f08080;
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: #9477af;
+}

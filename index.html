@@ -11,46 +11,42 @@
 </head>
 
 <body>
-    <div class="container">
+    <div id="container">
         <!-- result -->
-        <div class="result">
-            <div class="old-result">
-
+        <div id="result">
+            <div id="old-result">
+                <!-- <p id="old-value"></p> -->
             </div>
-            <p class="old-value">
-
-            </p>
+            <!-- output -->
+            <div id="output">
+                <p id="output-value"></p>
+            </div>
         </div>
-        <!-- output -->
-        <div class="output">
-            <p class="output-value">
 
-            </p>
-        </div>
         <!-- keyboard -->
-        <div class="keyboard">
-            <!-- integer -->
-            <button class="integer" id="1">1</button>
-            <button class="integer" id="2">2</button>
-            <button class="integer" id="3">3</button>
-            <button class="integer" id="4">4</button>
-            <button class="integer" id="5">5</button>
-            <button class="integer" id="6">6</button>
+        <div id="keyboard">
+            <!--C is delete all-->
+            <!--CE is delete a signle pattern-->
+            <button class="blank" id="blank"></button>
+            <button class="system" id="C">C</button>
+            <button class="system" id="CE">CE</button> 
+            <button class="system" id="-">-</button>
             <button class="integer" id="7">7</button>
             <button class="integer" id="8">8</button>
             <button class="integer" id="9">9</button>
-            <!-- operator -->
-            <button class="operator" id="+">+</button>
-            <button class="operator" id="-">-</button>
-            <button class="operator" id="*">x</button>
-            <button class="operator" id="/">÷</button>
-            <button class="operator" id="%">%</button>
-            <button class="operator" id="=">=</button>
-            <!-- function -->
-            <button class="system" id="C">C</button>  <!--C is delete all-->
-            <button class="system" id="CE">CE</button> <!--CE is delete a signle pattern-->
-
-
+            <button class="system" id="*">x</button>
+            <button class="integer" id="4">4</button>
+            <button class="integer" id="5">5</button>
+            <button class="integer" id="6">6</button>
+            <button class="system" id="/">÷</button>
+            <button class="integer" id="1">1</button>
+            <button class="integer" id="2">2</button>
+            <button class="integer" id="3">3</button>
+            <button class="system" id="%">%</button>
+            <button class="integer" id="0">0</button>
+            <button class="system" id="=">=</button>
+            <button class="blank" id="blank"></button>
+            <button class="system" id="+">+</button>
         </div>
     </div>
     <script src="main.js"></script>
